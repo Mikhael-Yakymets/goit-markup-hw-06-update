@@ -1,6 +1,7 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #ffffff;
+  /* background-image: linear-gradient(#404bbf, #31d0aa); */
   color: #434455;
 }
 
@@ -68,7 +69,7 @@ img {
 }
 
 .logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -80,7 +81,7 @@ img {
 }
 
 .logo-header {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -101,7 +102,7 @@ img {
 }
 
 .nav-list-item-link.current::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   bottom: -1px;
@@ -212,7 +213,7 @@ img {
 .mobile-menu-nav-list-item {
 }
 .mobile-menu-nav-list-item-link {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -305,7 +306,7 @@ img {
   max-width: 216px;
 }
 .button-section-hero {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -328,6 +329,10 @@ img {
 }
 /* #endregion Hero */
 /* #region section Features */
+/* .box-portfolio {
+  background-image: linear-gradient(#404bbf, #31d0aa);
+} */
+
 .visually-hidden {
   position: absolute;
   width: 1px;
